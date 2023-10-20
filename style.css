@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    width: 1400px;
+    gap: 30px 24px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+h2 {
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.btn {
+    width: 270px;
+    height: 54px;
+    border-radius: 36px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    background-color: grey;
+    color: orange;
+}
+.card {
+    width: 450px;
+    height: max-content;
+    background-color: beige;
+    margin-top: 30px;
+    border-radius: 17px;
+    color: currentColor;
+    font-family: "Malgun Gothic", sans-serif;
+}
+img {
+    width: 450px;
+    height: 250px;
+    border-radius: 17px;
+}
